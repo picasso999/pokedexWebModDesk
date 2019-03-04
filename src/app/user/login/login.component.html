@@ -1,0 +1,8 @@
+<div fxLayout="column"
+     fxlayoutAlign="space-around start"
+     class="top-container">
+<ngx-auth-firebaseui
+  [guestEnabled]="true" [providers]="[providers.Google]" (onSuccess)="success($event)">
+
+</ngx-auth-firebaseui>
+</div>
